@@ -29,7 +29,7 @@ control_socket.bind(('0.0.0.0', port))
 print("waiting on port:", port)
 
 
-    #Number the RPI IO pins using BCM
+#Number the RPI IO pins using BCM
 GPIO.setmode(GPIO.BCM)
 #Set the first pin as an output
 GPIO.setup(18,GPIO.OUT)
