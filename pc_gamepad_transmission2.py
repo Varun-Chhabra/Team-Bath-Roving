@@ -23,7 +23,7 @@ import sys
 axis_steer = 1
 axis_throttle = 2
 axis_sampler = 0  # find axis
-button_claw =  5
+button_claw =  3  #5
 
 forwards_moved = 0
 reverse_moved = 0
@@ -39,7 +39,7 @@ except socket.error:
     sys.exit()
 
 
-ip_address = "192.168.1.117"  # Address of RPi
+ip_address = "192.168.0.100"  # Address of RPi
 port = 8005  # port value must be the same on both scripts
 
 #ip_address_zero = ""
