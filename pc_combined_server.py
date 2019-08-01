@@ -158,7 +158,7 @@ def CommandStream():
         print('Failed to create socket')
         sys.exit()
 
-    ip_address = "192.168.0.100"  # Address of RPi
+    ip_address = "192.168.0.101"  # Address of RPi
     port = 8005  # port value must be the same on both scripts
 
     # ip_address_zero = ""
